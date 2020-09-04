@@ -2544,11 +2544,14 @@ img.mfp-img{
     height: 120px;
     left: 0;
     right: 0;
-    
+    position: relative;
   }
   .team-profile-name{
     padding-top: 20px
   }
+  .section-content {
+    margin-top: 56px;
+}
   .team-profile-hover:after{
     background: rgb(212 179 115)
   }
