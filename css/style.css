@@ -784,7 +784,7 @@ header .spacer + *{
 }
 
 .navbar-toggle .icon-bar{
-  background-color:#67d5b5;
+  background-color:#D4B373;
   height: 2px;
   width: 30px; 
 }
@@ -2505,7 +2505,14 @@ img.mfp-img{
   padding-bottom: 55px;
 }
 
-
+.fs-button a{
+  width: 165px!important;
+    /* height: 45px!important; */
+    display: block;
+    line-height: 18px!important;
+    font-size: 13px!important;
+    padding: 12px 0!important;
+}
 
 /* ------------------------------------------------------------------------------- */
 /*  14. Responsive styles
@@ -2523,6 +2530,7 @@ img.mfp-img{
     font-size: 30px!important ;
   
   }
+  
 }
 }
 
