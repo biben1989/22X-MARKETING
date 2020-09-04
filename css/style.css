@@ -2531,7 +2531,53 @@ img.mfp-img{
   
   }
   
-}
+  .team-profile-hover:after{
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  .team-profile-hover{
+    opacity: 1!important;
+    top: inherit;
+    bottom: 0;
+    height: 120px;
+    left: 0;
+    right: 0;
+    
+  }
+  .team-profile-name{
+    padding-top: 20px
+  }
+  .team-profile-hover:after{
+    background: rgb(212 179 115)
+  }
+  .team-profile-info {
+-webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    position: relative;
+    height: 100%;
+    top: 0;
+  }
+  .team-profile-info .spacer{
+    display: none;
+  }
+  .team-profile-info > div{
+    opacity: 1!important;
+    width: 100%;
+    
+  }
+  .team-profile-social{
+    top: initial;
+    margin-bottom: 0;
+    bottom: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+  }
+
 }
 
 @media (min-width: 768px){
