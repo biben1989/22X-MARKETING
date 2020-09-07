@@ -2634,7 +2634,9 @@ img.mfp-img{
   .navbar.affix .navbar-nav .active > a{
     color: #D4B373;
   }
-
+   .affix .navbar-nav{
+    margin-top: 9px;
+   }
   .navbar-nav li .submenu{
     display: block;
   }
