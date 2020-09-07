@@ -10,10 +10,12 @@ if ( isset($_POST['email']) && isset($_POST['name'])  && isset($_POST['message']
       exit;
     }
   }
-  
-  //
-  mail( "test@gmail.com", $_POST['name'], $_POST['message'], "From:" . $_POST['email'] );
+$to  = "<mail@example.com>" ; 
+$to .= "mail2@example.com>"; 
  
+mail( $to, $_POST['name'], $_POST['message'], "From:" . $_POST['email'] );
+
+  
   //			^
   //  Replace with your email 
 }
