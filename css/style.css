@@ -1762,7 +1762,7 @@ img.mfp-img{
 
 .team-profile:hover .team-profile-social{
   opacity: 1;
-  top:0;
+  top:;0
 }
 
 .team-profile:hover .team-profile-descr{
@@ -2569,7 +2569,13 @@ img.mfp-img{
   .team-profile-info > div{
     opacity: 1!important;
     width: 100%;
+    top: initial!important;
     
+  }
+  .team-profile:hover .team-profile-info{
+    -webkit-transform: none;
+    -ms-transform: translateY(-50%) scale(1);
+    transform: none;
   }
   .team-profile-social{
     top: initial;
