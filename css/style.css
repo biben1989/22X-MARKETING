@@ -2869,13 +2869,13 @@ img.mfp-img{
 
 }
 /* Data protections */
-#data-potection{
+#data-potection,#imprint {
   margin-bottom: 60px;
 }
 #data-potection .section-content{
   margin-top: 90px;
 }
-#data-potection .text_content{
+#data-potection .text_content,#imprint .text_content{
   margin-bottom: 55px;
 }
 #data-potection-slide .tp-bullets{
@@ -2948,4 +2948,34 @@ margin-bottom: 30px;
   font-weight: normal;
   text-transform: none;
   text-decoration: underline;
+}
+#imprint .section_contact{
+  margin-bottom: 90px;
+}
+#imprint .section_contact .row-columns{
+  display: flex;
+}
+#imprint .section_contact .row-columns .col-md-4{
+
+  display: flex;
+  align-items: center;
+}
+
+#imprint .section_contact .row-columns .col-md-4 .text_content{
+  margin-bottom: 0;
+  padding-left: 30px;
+}
+#imprint .section_contact .row-columns .col-md-4 .text_content p:last-child{
+  margin-bottom: 0;
+}
+
+
+@media (max-width: 992px){
+  #imprint .section_contact .row-columns{
+    display: block;
+  }
+  #imprint .section_contact .row-columns .col-md-4{
+    display: block;
+    padding-left: 0;
+  }
 }
