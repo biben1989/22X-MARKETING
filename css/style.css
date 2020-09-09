@@ -2872,6 +2872,12 @@ img.mfp-img{
 #data-potection{
   margin-bottom: 60px;
 }
+#data-potection .section-content{
+  margin-top: 90px;
+}
+#data-potection .text_content{
+  margin-bottom: 55px;
+}
 #data-potection-slide .tp-bullets{
   display: none;
 }
