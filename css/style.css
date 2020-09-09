@@ -2872,7 +2872,7 @@ img.mfp-img{
 #data-potection,#imprint {
   margin-bottom: 60px;
 }
-#data-potection .section-content{
+#data-potection .section-content,#imprint .section-content{
   margin-top: 90px;
 }
 #data-potection .text_content,#imprint .text_content{
