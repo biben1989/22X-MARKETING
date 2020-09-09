@@ -2937,3 +2937,9 @@ margin-bottom: 30px;
   border-radius: 50%;
   top: 13px;
 }
+#footer .navbar-nav li a{
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: none;
+  text-decoration: underline;
+}
